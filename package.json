@@ -1,0 +1,26 @@
+{
+  "name": "doitforme",
+  "version": "1.0.0",
+  "description": "create guides and run them at scheduled time",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgupt/PramodDoItForMe.git"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "Pramod Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgupt/PramodDoItForMe/issues"
+  },
+  "homepage": "https://github.com/pgupt/PramodDoItForMe#readme",
+  "devDependencies": {
+    "electron": "^2.0.10"
+  }
+}
