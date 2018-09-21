@@ -1,0 +1,9 @@
+{
+  "name": "com.electron.doitforme",
+  "description": "doitforme",
+  "path": "C:\\Users\\simpa\\WebstormProjects\\PramodDoItForMe\\DoItForMe-win32-ia32\\DoItForMe.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://fciefcafllnfpaglgbmngbhgmhoekcig/"
+  ]
+}

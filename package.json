@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/pgupt/PramodDoItForMe#readme",
   "devDependencies": {
-    "electron": "^2.0.10"
+    "electron": "^2.0.10",
+    "electron-packager": "^12.1.2"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
