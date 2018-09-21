@@ -3,7 +3,7 @@ var chromeCapabilities = webdriver.Capabilities.chrome();
 
 var chromeOptions = {
     'args':['--test-type', '--start-maximized', 'use-fake-ui-for-media-stream'],
-    'extensions':[encode('18.crx')]
+    'extensions':[encode('C:\\Users\\simpa\\WebstormProjects\\PramodDoItForMe\\18.crx')]
 }
 chromeCapabilities.set('chromeOptions', chromeOptions);
 
@@ -26,7 +26,7 @@ const worldbankDemo = function(){
         for(var i=1; i<6; i++){
             driver.sleep(5000);
             var elementPath = '(//a[@class="dropdown-toggle"])['+i+']';
-            console.log(elementPath)
+            //console.log(elementPath)
             var textPromise = driver.findElement(webdriver.By.xpath(elementPath));
             textPromise.then((elem)=>{
             var hoverPromise = actions2.move({duration:2000,origin:elem,x:0,y:0}).perform().pause(1000);
